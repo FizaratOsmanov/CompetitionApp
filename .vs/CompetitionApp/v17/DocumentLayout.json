@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\questiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\questiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\topics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\topics.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\questions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\controllers\\competitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:controllers\\competitioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\questiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\questiondetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:views\\competition\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E447C7B-CFE3-415E-B447-E1BF597F2D23}|CompetitionApp.csproj|c:\\users\\lenovo\\desktop\\competitionapp\\model\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 461,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,65 +66,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "QuestionDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\QuestionDetail.cshtml",
               "RelativeDocumentMoniker": "Views\\Competition\\QuestionDetail.cshtml",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\QuestionDetail.cshtml",
               "RelativeToolTip": "Views\\Competition\\QuestionDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T21:19:16.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Questions.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Questions.cshtml",
               "RelativeDocumentMoniker": "Views\\Competition\\Questions.cshtml",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Questions.cshtml",
               "RelativeToolTip": "Views\\Competition\\Questions.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T21:18:34.264Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Topics.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Topics.cshtml",
               "RelativeDocumentMoniker": "Views\\Competition\\Topics.cshtml",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Topics.cshtml",
               "RelativeToolTip": "Views\\Competition\\Topics.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T21:17:48.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Competition\\Index.cshtml",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Views\\Competition\\Index.cshtml",
               "RelativeToolTip": "Views\\Competition\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-31T21:16:45.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "CompetitionController.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Controllers\\CompetitionController.cs",
               "RelativeDocumentMoniker": "Controllers\\CompetitionController.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Controllers\\CompetitionController.cs",
               "RelativeToolTip": "Controllers\\CompetitionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T21:07:51.736Z",
               "EditorCaption": ""
@@ -139,8 +139,7 @@
               "RelativeToolTip": "Model\\Question.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T20:31:42.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T20:31:42.282Z"
             },
             {
               "$type": "Document",
@@ -152,18 +151,17 @@
               "RelativeToolTip": "Model\\Topic.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T22:40:15.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T22:40:15.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA0AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T14:06:33Z",
               "EditorCaption": ""
@@ -178,8 +176,7 @@
               "RelativeToolTip": "App_Data\\questions.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-29T20:40:09.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T20:40:09.674Z"
             },
             {
               "$type": "Document",

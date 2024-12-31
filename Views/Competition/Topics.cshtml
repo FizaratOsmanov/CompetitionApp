@@ -4,11 +4,74 @@
 @{
     ViewBag.Title = "Mövzular";
 }
-<div class="text-center">
-    <h1>Mövzular</h1>
-    @foreach (var topic in Model)
-    {
-        <a href="/Competition/Questions?topicId=@topic.Id" class="btn btn-info m-2">@topic.Name</a>
-    }
-</div>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f1f4f8; 
+            color: #343a40; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+            text-align: center;
+        }
 
+        h1 {
+            font-size: 2.5rem;
+            color: #007bff; 
+            margin-bottom: 40px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px; 
+        }
+
+        .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-info {
+            background-color: #17a2b8; 
+            border: none;
+            color: #ffffff;
+            padding: 60px 80px;
+            font-size: 1.7rem;
+            border-radius: 10px;
+            width: 150%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .btn-info:hover {
+                background-color:blue; 
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Mövzular</h1>
+        <div class="row">
+            @foreach (var topic in Model)
+            {
+                <div class="col-md-4">
+                    <a href="/Competition/Questions?topicId=@topic.Id" class="btn btn-info">@topic.Name</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

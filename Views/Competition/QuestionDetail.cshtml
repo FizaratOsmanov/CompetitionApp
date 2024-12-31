@@ -4,20 +4,87 @@
 @{
     ViewBag.Title = "Sual Detalları";
 }
-<div class="text-center">
-    <h1>Sual @Model.Id</h1>
-    <p>@Model.Text</p>
-    @if (Model.Options != null)
-    {
-        <ul>
-            @foreach (var option in Model.Options)
-            {
-                <li>@option</li>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #fdfdfe; /* Açıq boz rəng */
+            color: #343a40; /* Tünd mətni rəngi */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .question-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #ffffff; /* Ağ kart dizaynı */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #007bff; /* Mavi başlıq */
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            font-size: 1.1rem;
+            padding: 10px 0;
+            background: #f8f9fa; /* Açıq boz cavab qutuları */
+            border: 1px solid #dee2e6; /* Sərhəd */
+            border-radius: 5px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+            li:hover {
+                background: #e2e6ea; /* Hover effekti */
             }
-        </ul>
-    }
-    @if (Model.ImageUrl != null)
-    {
-        <img src="@Model.ImageUrl" alt="Şəkil" />
-    }
-</div>
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="question-container">
+        <h1>Sual @Model.Id</h1>
+        <p>@Model.Text</p>
+        @if (Model.Options != null && Model.Options.Any())
+        {
+            <ul>
+                @foreach (var option in Model.Options)
+                {
+                    <li>@option</li>
+                }
+            </ul>
+        }
+        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+        {
+            <img src="@Model.ImageUrl" alt="Şəkil" />
+        }
+    </div>
+</body>
+</html>

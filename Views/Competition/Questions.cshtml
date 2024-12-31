@@ -3,13 +3,81 @@
 @{
     ViewBag.Title = "Suallar";
 }
-<div class="text-center">
-    <h1>@Model.Name</h1>
-    @foreach (var question in Model.Questions)
-    {
-        <a href="/Competition/QuestionDetail?topicId=@Model.Id&questionId=@question.Id" class="btn btn-warning m-2">
-            Sual @question.Id
-        </a>
-    }
-</div>
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Açıq boz arxa fon */
+            color: #343a40; /* Tünd mətn rəngi */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Tam hündürlük */
+            text-align: center;
+            flex-direction: column; /* İçeriği dikey olaraq hizala */
+        }
 
+        h1 {
+            font-size: 2.5rem;
+            color: #007bff; /* Mavi başlıq */
+            margin-bottom: 40px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center; /* Ortada hizalama */
+            flex-wrap: nowrap; /* Elementləri bir sətirdə saxla */
+            gap: 1px; /* Buttonlar arasında boşluq */
+        }
+
+        .col-md-4 {
+            display: flex;
+            justify-content: center;
+        }
+
+        .btn-warning {
+            background-color: #ffc107;
+            border: none;
+            color: #343a40;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            width: 120px; /* Kontrollü genişlik */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .btn-warning:hover {
+                background-color: #e0a800; /* Tünd sarı hover rəngi */
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            }
+
+            .btn-warning .question-id {
+                font-size: 2rem; /* Rəqəmlərin daha böyük görünməsi üçün */
+                font-weight: bold;
+            }
+
+    </style>
+</head>
+<body>
+    <h1>Suallar</h1>
+    <div class="row">
+        @foreach (var question in Model.Questions)
+        {
+            <div class="col-md-4">
+                <a href="/Competition/QuestionDetail?topicId=@Model.Id&questionId=@question.Id" class="btn btn-warning m-2">
+                    <span class="question-id">@question.Id</span>
+                </a>
+            </div>
+        }
+    </div>
+</body>
+</html>
