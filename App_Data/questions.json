@@ -1,0 +1,248 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Mövzu 1",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "Hansı rəng qırmızıdır?",
+        "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      },
+      {
+        "Id": 2,
+        "Text": "Hansı rəqəm 2-dir?",
+        "Options": [ "1", "2", "3" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      },
+      {
+        "Id": 3,
+        "Text": "Hansı heyvan pişikdir?",
+        "Options": [ "Köpək", "Pişik", "Quş" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      },
+      {
+        "Id": 4,
+        "Text": "Hansı gün bazardır?",
+        "Options": [ "Bazar ertəsi", "Bazar", "Çərşənbə" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      },
+      {
+        "Id": 5,
+        "Text": "Hansı meyvə banandır?",
+        "Options": [ "Alma", "Banan", "Üzüm" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Mövzu 2",
+    "Questions": [
+      {
+        "Id": 6,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased"
+      },
+      {
+        "Id": 7,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/cat.jpg",
+        "QuestionType": "ImageBased"
+      },
+      {
+        "Id": 8,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/car.jpg",
+        "QuestionType": "ImageBased"
+      },
+      {
+        "Id": 9,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/house.jpg",
+        "QuestionType": "ImageBased"
+      },
+      {
+        "Id": 10,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/tree.jpg",
+        "QuestionType": "ImageBased"
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Mövzu 3",
+    "Questions": [
+      {
+        "Id": 11,
+        "Text": "Dünyanın ən böyük okeanı hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 12,
+        "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 13,
+        "Text": "Hansı il Azərbaycanın müstəqilliyi bərpa olunub?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 14,
+        "Text": "Yer kürəsinin sahəsi neçə kvadrat kilometrdir?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 15,
+        "Text": "Hansı planet günəşə daha yaxındır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Mövzu 4",
+    "Questions": [
+      {
+        "Id": 16,
+        "Text": "Elektrik cərəyanı hansı vahidlə ölçülür?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 17,
+        "Text": "Azərbaycanın milli valyutası hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 18,
+        "Text": "Dünyanın ən hündür dağı hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 19,
+        "Text": "Yer kürəsində neçə qitə var?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 20,
+        "Text": "Azərbaycanın ən uzun çayı hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Mövzu 5",
+    "Questions": [
+      {
+        "Id": 21,
+        "Text": "Hansı il İlk Olimpiya Oyunları keçirilib?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 22,
+        "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 23,
+        "Text": "Yer kürəsinin ən dərin nöqtəsi hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 24,
+        "Text": "Hansı elementin simvolu H-dir?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 25,
+        "Text": "Azərbaycanın ən qədim şəhəri hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Mövzu 6",
+    "Questions": [
+      {
+        "Id": 26,
+        "Text": "Hansı rəng qırmızıdır?",
+        "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice"
+      },
+      {
+        "Id": 27,
+        "Text": "Bu şəklin təsvirini yazın:",
+        "Options": null,
+        "ImageUrl": "/images/cat.jpg",
+        "QuestionType": "ImageBased"
+      },
+      {
+        "Id": 28,
+        "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 29,
+        "Text": "Azərbaycanın milli valyutası hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      },
+      {
+        "Id": 30,
+        "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly"
+      }
+    ]
+  }
+]

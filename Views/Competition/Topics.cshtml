@@ -1,0 +1,14 @@
+﻿@using CompetitionApp.Model;
+
+@model List<Topic>
+@{
+    ViewBag.Title = "Mövzular";
+}
+<div class="text-center">
+    <h1>Mövzular</h1>
+    @foreach (var topic in Model)
+    {
+        <a href="/Competition/Questions?topicId=@topic.Id" class="btn btn-info m-2">@topic.Name</a>
+    }
+</div>
+

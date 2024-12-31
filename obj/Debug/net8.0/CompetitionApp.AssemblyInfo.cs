@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5817a046ef5eecd1812c6405d58409e8165993f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b575eb1d58a30efa0c6dcab4ff9863f7c294f640")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

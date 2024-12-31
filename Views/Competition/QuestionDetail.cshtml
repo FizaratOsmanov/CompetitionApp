@@ -1,0 +1,23 @@
+﻿@using CompetitionApp.Model;
+
+@model Question
+@{
+    ViewBag.Title = "Sual Detalları";
+}
+<div class="text-center">
+    <h1>Sual @Model.Id</h1>
+    <p>@Model.Text</p>
+    @if (Model.Options != null)
+    {
+        <ul>
+            @foreach (var option in Model.Options)
+            {
+                <li>@option</li>
+            }
+        </ul>
+    }
+    @if (Model.ImageUrl != null)
+    {
+        <img src="@Model.ImageUrl" alt="Şəkil" />
+    }
+</div>
