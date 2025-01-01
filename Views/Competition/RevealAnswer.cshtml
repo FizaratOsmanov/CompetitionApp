@@ -1,0 +1,31 @@
+﻿@using CompetitionApp.Model;
+@model Question
+
+@{
+    ViewBag.Title = "Doğru Cavab";
+}
+
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="question-container">
+        @if (Model != null)
+        {
+            <h1>@Model.Text</h1>
+            <p><strong>Doğru Cavab:</strong> @Model.CorrectAnswer</p>
+        }
+        else
+        {
+            <p>Suallarla bağlı məlumat tapılmadı.</p>
+        }
+
+        <a href="@Url.Action("Topics", "Competition")" class="btn btn-secondary mt-4">Geri</a>
+    </div>
+</body>
+</html>

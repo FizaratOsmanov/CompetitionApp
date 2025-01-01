@@ -8,35 +8,44 @@
         "Text": "Hansı rəng qırmızıdır?",
         "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "Mavi"
       },
       {
         "Id": 2,
         "Text": "Hansı rəqəm 2-dir?",
         "Options": [ "1", "2", "3" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1"
+
       },
       {
         "Id": 3,
         "Text": "Hansı heyvan pişikdir?",
         "Options": [ "Köpək", "Pişik", "Quş" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "Quş"
+
       },
       {
         "Id": 4,
         "Text": "Hansı gün bazardır?",
         "Options": [ "Bazar ertəsi", "Bazar", "Çərşənbə" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "Bazar"
+
       },
       {
         "Id": 5,
         "Text": "Hansı meyvə banandır?",
         "Options": [ "Alma", "Banan", "Üzüm" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   },
@@ -45,39 +54,49 @@
     "Name": "Mövzu 2",
     "Questions": [
       {
-        "Id": 6,
+        "Id": 1,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 7,
+        "Id": 2,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/cat.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 8,
+        "Id": 3,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/car.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 9,
+        "Id": 4,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/house.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 10,
+        "Id": 5,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/tree.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   },
@@ -86,39 +105,49 @@
     "Name": "Mövzu 3",
     "Questions": [
       {
-        "Id": 11,
+        "Id": 1,
         "Text": "Dünyanın ən böyük okeanı hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 12,
+        "Id": 2,
         "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 13,
+        "Id": 3,
         "Text": "Hansı il Azərbaycanın müstəqilliyi bərpa olunub?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 14,
+        "Id": 4,
         "Text": "Yer kürəsinin sahəsi neçə kvadrat kilometrdir?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 15,
+        "Id": 5,
         "Text": "Hansı planet günəşə daha yaxındır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   },
@@ -127,39 +156,49 @@
     "Name": "Mövzu 4",
     "Questions": [
       {
-        "Id": 16,
+        "Id": 1,
         "Text": "Elektrik cərəyanı hansı vahidlə ölçülür?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 17,
+        "Id": 2,
         "Text": "Azərbaycanın milli valyutası hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 18,
+        "Id": 3,
         "Text": "Dünyanın ən hündür dağı hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 19,
+        "Id": 4,
         "Text": "Yer kürəsində neçə qitə var?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 20,
+        "Id": 5,
         "Text": "Azərbaycanın ən uzun çayı hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   },
@@ -168,39 +207,49 @@
     "Name": "Mövzu 5",
     "Questions": [
       {
-        "Id": 21,
+        "Id": 1,
         "Text": "Hansı il İlk Olimpiya Oyunları keçirilib?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 22,
+        "Id": 2,
         "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 23,
+        "Id": 3,
         "Text": "Yer kürəsinin ən dərin nöqtəsi hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 24,
+        "Id": 4,
         "Text": "Hansı elementin simvolu H-dir?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 25,
+        "Id": 5,
         "Text": "Azərbaycanın ən qədim şəhəri hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   },
@@ -209,39 +258,49 @@
     "Name": "Mövzu 6",
     "Questions": [
       {
-        "Id": 26,
+        "Id": 1,
         "Text": "Hansı rəng qırmızıdır?",
         "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "Mavi"
+
       },
       {
-        "Id": 27,
+        "Id": 2,
         "Text": "Bu şəklin təsvirini yazın:",
         "Options": null,
         "ImageUrl": "/images/cat.jpg",
-        "QuestionType": "ImageBased"
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 28,
+        "Id": 3,
         "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 29,
+        "Id": 4,
         "Text": "Azərbaycanın milli valyutası hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       },
       {
-        "Id": 30,
+        "Id": 5,
         "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
         "Options": null,
         "ImageUrl": null,
-        "QuestionType": "TextOnly"
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "Alma"
+
       }
     ]
   }

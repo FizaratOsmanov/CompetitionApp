@@ -13,15 +13,13 @@ namespace CompetitionApp
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Competition/Error");
                 app.UseHsts();
             }
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Competition}/{action=Index}/{id?}");

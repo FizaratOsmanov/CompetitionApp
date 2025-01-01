@@ -1,49 +1,77 @@
-﻿@using CompetitionApp.Model;
-
-@{
-    ViewBag.Title = "Yarışmaya Xoş Gəldiniz";
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="az">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
+    <title>Yarışmaya Xoş Gəldiniz</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa; /* Açıq rəngli arxa fon */
-            color: #343a40; /* Tünd mətni rəngi */
-            font-family: Arial, sans-serif;
-        }
-        .center-content {
-            height: 100vh;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #343a40;
+            background: linear-gradient(135deg, #007bff, #6610f2);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
             display: flex;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            opacity: 1;
+            transition: opacity 0.5s ease-in-out; /* Tədrici solğunlaşma */
         }
+
+        /* Gradient animasiyası */
+  
+
+        .center-content {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
         h1 {
             font-size: 2.5rem;
+            font-weight: bold;
+            color: #343a40;
             margin-bottom: 20px;
         }
+
         .btn-primary {
-            padding: 10px 20px;
-            font-size: 1.2rem;
-            border-radius: 25px;
-            background-color: #007bff; /* Mavi düymə */
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            border-radius: 50px;
+            background-color: #007bff;
             border: none;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
         }
-        .btn-primary:hover {
-            background-color: #0056b3; /* Hover effekti üçün tünd mavi */
-        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+                box-shadow: 0 6px 20px rgba(0, 86, 179, 0.6);
+                transform: scale(1.1);
+            }
     </style>
 </head>
 <body>
     <div class="center-content">
         <h1>Yarışmaya Xoş Gəldiniz</h1>
-        <a href="/Competition/Topics" class="btn btn-primary">Start</a>
+        <a id="startButton" class="btn btn-primary">Start</a>
     </div>
+
+    <script>
+        document.getElementById('startButton').addEventListener('click', function (event) {
+            event.preventDefault(); // Default davranışı dayandırır
+            document.body.style.opacity = '0'; // Səhifəni solğunlaşdırır
+            setTimeout(function () {
+                window.location.href = '/Competition/Topics'; // Yeni səhifəyə yönləndirir
+            }, 500); // 0.5 saniyə gözləmə
+        });
+    </script>
 </body>
 </html>
-

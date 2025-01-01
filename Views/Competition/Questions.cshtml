@@ -1,9 +1,4 @@
-﻿@using CompetitionApp.Model;
-@model Topic
-@{
-    ViewBag.Title = "Suallar";
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="az">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa; /* Açıq boz arxa fon */
+            background-color:aqua;
             color: #343a40; /* Tünd mətn rəngi */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
@@ -35,36 +30,43 @@
             display: flex;
             justify-content: center; /* Ortada hizalama */
             flex-wrap: nowrap; /* Elementləri bir sətirdə saxla */
-            gap: 1px; /* Buttonlar arasında boşluq */
-        }
-
-        .col-md-4 {
-            display: flex;
-            justify-content: center;
+            gap: 40px; /* Buttonlar arasında boşluq */
         }
 
         .btn-warning {
-            background-color: #ffc107;
+            background-color: #ffcc00; /* Parlaq sarı */
             border: none;
             color: #343a40;
-            padding: 15px 30px;
-            font-size: 1.5rem;
+            padding: 65px 100px;
+            font-size: 2rem; /* Mətnin ölçüsü */
             border-radius: 10px;
             width: 120px; /* Kontrollü genişlik */
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out; /* Effekt üçün keçid */
+            outline: none; /* Fokus üçün sərhəd göstərilməsin */
         }
 
             .btn-warning:hover {
-                background-color: #e0a800; /* Tünd sarı hover rəngi */
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                background-color: #e6ac00; /* Tünd sarı hover rəngi */
+                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+                transform: scale(1.4); /* Kiçik böyümə effekti */
+            }
+
+            .btn-warning:active {
+                background-color: #cc9900; /* Daha tünd sarı aktiv rəngi */
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+                transform: scale(0.95); /* Kiçik yığılma effekti */
+            }
+
+            .btn-warning:focus {
+                box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Fokus effekti */
             }
 
             .btn-warning .question-id {
-                font-size: 2rem; /* Rəqəmlərin daha böyük görünməsi üçün */
+                font-size: 5rem; /* Rəqəmlərin daha böyük görünməsi üçün */
                 font-weight: bold;
             }
-
     </style>
 </head>
 <body>
@@ -72,9 +74,9 @@
     <div class="row">
         @foreach (var question in Model.Questions)
         {
-            <div class="col-md-4">
+            <div>
                 <a href="/Competition/QuestionDetail?topicId=@Model.Id&questionId=@question.Id" class="btn btn-warning m-2">
-                    <span class="question-id">@question.Id</span>
+                    <span class="question-id">@question.Id </span>
                 </a>
             </div>
         }

@@ -14,7 +14,6 @@ namespace CompetitionApp.Controllers
 
     public CompetitionController(IWebHostEnvironment env)
     {
-        // Fayl yolu ContentRootPath istifadə edilərək müəyyənləşdirilir
         _jsonPath = Path.Combine(env.ContentRootPath, "App_Data", "questions.json");
     }
         public ActionResult Index()
@@ -40,6 +39,7 @@ namespace CompetitionApp.Controllers
             var topics = GetTopicsFromJson();
             var topic = topics.FirstOrDefault(t => t.Id == topicId);
             var question = topic?.Questions.FirstOrDefault(q => q.Id == questionId);
+            ViewBag.TopicId = topicId;
             return View(question);
         }
 
@@ -48,5 +48,25 @@ namespace CompetitionApp.Controllers
             var jsonData = System.IO.File.ReadAllText(_jsonPath);
             return JsonSerializer.Deserialize<List<Topic>>(jsonData);
         }
+        public ActionResult RevealAnswer(int topicId, int questionId)
+        {
+            var topics = GetTopicsFromJson();
+            var topic = topics.FirstOrDefault(t => t.Id == topicId);
+
+            if (topic == null)
+            {
+                return NotFound();
+            }
+
+            var question = topic?.Questions.FirstOrDefault(q => q.Id == questionId);
+
+            if (question == null)
+            {
+                return NotFound();
+            }
+
+            return View(question); 
+        }
+
     }
 }

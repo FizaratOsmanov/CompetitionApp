@@ -1,9 +1,10 @@
 ﻿@using CompetitionApp.Model;
-
 @model Question
+
 @{
     ViewBag.Title = "Sual Detalları";
 }
+
 <!DOCTYPE html>
 <html lang="az">
 <head>
@@ -12,51 +13,67 @@
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
+        /* Body and background styling */
         body {
-            background-color: #fdfdfe; /* Açıq boz rəng */
-            color: #343a40; /* Tünd mətni rəngi */
+            background-color:chartreuse;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
             margin: 0;
-            padding: 0;
         }
 
+        /* Center the content within the container */
         .question-container {
-            max-width: 600px;
-            margin: 50px auto;
-            background: #ffffff; /* Ağ kart dizaynı */
+            background: #ffffff; /* White background for the card */
+            padding: 150px; /* Increased padding for more space */
             border-radius: 15px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 1000px; /* Increased width for more space */
+            width: 100%;
             text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
+
+            .question-container:hover {
+                transform: translateY(-5px); /* Hover effect */
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+            }
 
         h1 {
-            font-size: 2rem;
-            color: #007bff; /* Mavi başlıq */
+            color: #007bff; /* Blue title */
+            font-size: 3rem; /* Larger font size for the question */
+            margin-bottom: 20px;
+            font-weight: bold;
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 2rem; /* Increased font size for the question text */
             margin-bottom: 20px;
+            color: #555; /* Dark gray color */
         }
 
         ul {
             list-style-type: none;
             padding: 0;
+            text-align: left;
         }
 
         li {
             font-size: 1.1rem;
-            padding: 10px 0;
-            background: #f8f9fa; /* Açıq boz cavab qutuları */
-            border: 1px solid #dee2e6; /* Sərhəd */
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
             border-radius: 5px;
             margin-bottom: 10px;
             cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
         }
 
             li:hover {
-                background: #e2e6ea; /* Hover effekti */
+                background-color: #e2e6ea;
+                transform: scale(1.05);
             }
 
         img {
@@ -65,13 +82,34 @@
             margin-top: 20px;
             border-radius: 10px;
             border: 1px solid #ccc;
+            transition: transform 0.3s ease;
         }
+
+            img:hover {
+                transform: scale(1.05); /* Image hover effect */
+            }
+
+        /* Button styling */
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px; /* Increased padding for button */
+            font-size: 1.2rem; /* Larger button text */
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn:hover {
+                background-color: #0056b3; /* Darker blue on hover */
+            }
     </style>
 </head>
 <body>
     <div class="question-container">
         <h1>Sual @Model.Id</h1>
         <p>@Model.Text</p>
+
         @if (Model.Options != null && Model.Options.Any())
         {
             <ul>
@@ -81,10 +119,16 @@
                 }
             </ul>
         }
+
         @if (!string.IsNullOrEmpty(Model.ImageUrl))
         {
             <img src="@Model.ImageUrl" alt="Şəkil" />
         }
+
+        <!-- Button to reveal the correct answer -->
+        <form method="get" action="@Url.Action("RevealAnswer", "Competition", new { topicId = ViewBag.TopicId, questionId = Model.Id })">
+            <button type="submit" class="btn mt-4">Doğru Cavabı Göstər</button>
+        </form>
     </div>
 </body>
 </html>
