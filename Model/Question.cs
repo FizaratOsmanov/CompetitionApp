@@ -2,13 +2,13 @@
 {
     public class Question
     {
-        public int Id { get; set; } // Sualın unikal ID-si
-        public string Text { get; set; } // Sualın mətni
-        public List<string> Options { get; set; } // Cavab variantları (əgər varsa)
-        public string ImageUrl { get; set; } // Şəkil URL-si (əgər varsa)
-        public string QuestionType { get; set; } // S
+        public int Id { get; set; }
+        public string Text { get; set; } 
+        public List<string> Options { get; set; } 
+        public string ImageUrl { get; set; } 
+        public string QuestionType { get; set; } 
 
-        public string? CorrectAnswer { get; set; } // Correct answer
+        public string? CorrectAnswer { get; set; } 
 
     }
 }

@@ -1,50 +1,58 @@
 ﻿[
   {
     "Id": 1,
-    "Name": "Mövzu 1",
+    "Name": "Grammar",
     "Questions": [
       {
         "Id": 1,
-        "Text": "Hansı rəng qırmızıdır?",
-        "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
+        "Text": "What time ___ you wake up every day?",
+        "Options": [ "a) do", "b) does", "c) are" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "Mavi"
+        "CorrectAnswer": "a) do"
       },
       {
         "Id": 2,
-        "Text": "Hansı rəqəm 2-dir?",
-        "Options": [ "1", "2", "3" ],
+        "Text": "He hurt ___ while playing football.",
+        "Options": [ "a) himself", "b) itself", "c) myself" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "1"
+        "CorrectAnswer": "a) himself"
 
       },
       {
         "Id": 3,
-        "Text": "Hansı heyvan pişikdir?",
-        "Options": [ "Köpək", "Pişik", "Quş" ],
+        "Text": "This road is ___ than the other one.",
+        "Options": [ "a) long", "b) longer", "c) longest" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "Quş"
+        "CorrectAnswer": "b) longer"
 
       },
       {
         "Id": 4,
-        "Text": "Hansı gün bazardır?",
-        "Options": [ "Bazar ertəsi", "Bazar", "Çərşənbə" ],
+        "Text": "There isn’t ___ milk left in the fridge.",
+        "Options": [ "a) some", "b) any", "c) many" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "Bazar"
-
+        "CorrectAnswer": "b) any"
       },
       {
         "Id": 5,
-        "Text": "Hansı meyvə banandır?",
-        "Options": [ "Alma", "Banan", "Üzüm" ],
+        "Text": "Which of these is a proper noun?",
+        "Options": [ "a) book", "b) city", "c) London" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "c) London"
+
+      },
+      {
+        "Id": 6,
+        "Text": "I have ___ books,and this is the ___ time I am reading them.",
+        "Options": [ "a) three,third", "b) third,three", "c) three,three" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) three,third"
 
       }
     ]
@@ -55,200 +63,222 @@
     "Questions": [
       {
         "Id": 1,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "rrferfera"
 
       },
       {
         "Id": 2,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "eifjwoiefjwoifj",
         "Options": null,
-        "ImageUrl": "/images/cat.jpg",
+        "ImageUrl": "/images/dog.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "rrferfera"
 
       },
       {
         "Id": 3,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "eifjwoiefjwoifj",
         "Options": null,
-        "ImageUrl": "/images/car.jpg",
+        "ImageUrl": "/images/dog.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "rrferfera"
 
       },
       {
         "Id": 4,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "eifjwoiefjwoifj",
         "Options": null,
-        "ImageUrl": "/images/house.jpg",
+        "ImageUrl": "/images/dog.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "rrferfera"
 
       },
       {
         "Id": 5,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "eifjwoiefjwoifj",
         "Options": null,
-        "ImageUrl": "/images/tree.jpg",
+        "ImageUrl": "/images/dog.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "rrferfera"
 
       }
     ]
   },
   {
     "Id": 3,
-    "Name": "Mövzu 3",
+    "Name": "Translate",
     "Questions": [
       {
         "Id": 1,
-        "Text": "Dünyanın ən böyük okeanı hansıdır?",
-        "Options": null,
+        "Text": "O, hər gün məktəbə gedir.",
+        "Options": [ "a) She goes to school every day.", "b) She reads books every day.", "c) She eats breakfast every day." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) She goes to school every day."
 
       },
       {
         "Id": 2,
-        "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
-        "Options": null,
+        "Text": "They go to school in the morning.",
+        "Options": [ "a) Onlar səhər məktəbə gedirlər.", "b) Onlar hər gün parkda oynayırlar.", "c) Onlar səhər yeməyi yeyirlər." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Onlar səhər məktəbə gedirlər."
 
       },
       {
         "Id": 3,
-        "Text": "Hansı il Azərbaycanın müstəqilliyi bərpa olunub?",
-        "Options": null,
+        "Text": "Onlar futbol oynayır.",
+        "Options": [ "a) They play football.", "b) They are playing football.", "c) They played football." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
-
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) They play football."
       },
       {
         "Id": 4,
-        "Text": "Yer kürəsinin sahəsi neçə kvadrat kilometrdir?",
-        "Options": null,
+        "Text": "I drink water every day.",
+        "Options": [ "a) Mən hər gün su içirəm.", "b) Mən hər gün məktəbə gedirəm.", "c) Mən hər gün kitab oxuyuram." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Mən hər gün su içirəm."
 
       },
       {
         "Id": 5,
-        "Text": "Hansı planet günəşə daha yaxındır?",
-        "Options": null,
+        "Text": "She reads books every day.",
+        "Options": [ "a) O, hər gün kitab oxuyur.", "b) O, hər gün məktəbə gedir.", "c) O, hər gün yemək yeyir." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) O, hər gün kitab oxuyur."
 
+      },
+      {
+        "Id": 6,
+        "Text": "Biz dərsləri oxuyuruq.",
+        "Options": [ "a) We read lessons.", "b) We are reading lessons.", "c) We read lessons every day." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "c) We read lessons every day."
       }
     ]
   },
   {
     "Id": 4,
-    "Name": "Mövzu 4",
+    "Name": "Synonyms and Antonyms",
     "Questions": [
       {
         "Id": 1,
-        "Text": "Elektrik cərəyanı hansı vahidlə ölçülür?",
-        "Options": null,
+        "Text": "What is the opposite of  \"smart\"?",
+        "Options": [ "a) Stupid", "b) Clever", "c) Small" ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
-
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Stupid"
       },
       {
         "Id": 2,
-        "Text": "Azərbaycanın milli valyutası hansıdır?",
-        "Options": null,
+        "Text": "What is another word for  \"domestic\"?",
+        "Options": [ "a) Wild", "b) Home", "c) Dangerous" ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "b) Home"
 
       },
       {
         "Id": 3,
-        "Text": "Dünyanın ən hündür dağı hansıdır?",
-        "Options": null,
+        "Text": "What is the opposite of  \"difficult\"?",
+        "Options": [ "a) Easy", "b) Hard", "c) Boring" ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
-
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Easy"
       },
       {
         "Id": 4,
-        "Text": "Yer kürəsində neçə qitə var?",
-        "Options": null,
+        "Text": "What is another word for  \"small\"?",
+        "Options": [ "a) Tiny", "b) Big", "c) Smart" ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
-
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Tiny"
       },
       {
         "Id": 5,
-        "Text": "Azərbaycanın ən uzun çayı hansıdır?",
-        "Options": null,
+        "Text": "What is the opposite of  \"tiny\"?",
+        "Options": [ "a) Big", "b) Clever", "c) Small" ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Big"
+
+      },
+      {
+        "Id": 6,
+        "Text": "What is another word for  \"clever\"?",
+        "Options": [ "a) Smart", "b) Slow", "c) Kind" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Smart"
 
       }
     ]
   },
   {
     "Id": 5,
-    "Name": "Mövzu 5",
+    "Name": "Make a sentence",
     "Questions": [
       {
         "Id": 1,
-        "Text": "Hansı il İlk Olimpiya Oyunları keçirilib?",
-        "Options": null,
+        "Text": "Make a sentence",
+        "Options": [ "1. I / at / am / playing / good / football.", "2. going / to / am / I / the / market / tomorrow.", "3. prefer / I / to / swimming / running." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. I am good at playing football.\n2. I am going to the market tomorrow.\n3. I prefer swimming to running."
 
       },
       {
         "Id": 2,
-        "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
-        "Options": null,
+        "Text": "Make a sentence",
+        "Options": [ "1. She / at / is / cooking / good.", "2. to / is / she / going / the / cinema / tonight.", "3. prefer / she / to / reading / writing." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. She is good at cooking.\n2. She is going to the cinema tonight.\n3. She prefers writing to reading."
 
       },
       {
         "Id": 3,
-        "Text": "Yer kürəsinin ən dərin nöqtəsi hansıdır?",
-        "Options": null,
+        "Text": "Make a sentence",
+        "Options": [ "1. They / at / are / playing / good / football.", "2. To / are / they / going / the / market / tomorrow.", "3. Prefer / they / to / swimming / running." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. They are good at playing football.\n2. They are going to the market tomorrow.\n3. They prefer swimming to running."
 
       },
       {
         "Id": 4,
-        "Text": "Hansı elementin simvolu H-dir?",
-        "Options": null,
+        "Text": "Make a sentence",
+        "Options": [ "1. We / at / are / cooking / good.", "2. To / are / we / going / the / cinema / tonight.", "3. Prefer / we / to / reading / writing." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. We are good at cooking.\n2. We are going to the cinema tonight.\n3. We prefer writing to reading."
 
       },
       {
         "Id": 5,
-        "Text": "Azərbaycanın ən qədim şəhəri hansıdır?",
-        "Options": null,
+        "Text": "Make a sentence",
+        "Options": [ "1. You / at / are / playing / good / football.", "2. To / are / you / going / the / market / tomorrow.", "3. Prefer / you / to / swimming / running." ],
         "ImageUrl": null,
-        "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. You are good at playing football.\n2. You are going to the market tomorrow.\n3. You prefer swimming to running."
+
+      },
+      {
+        "Id": 6,
+        "Text": "Make a sentence",
+        "Options": [ "1. He / at / is / cooking / good.", "2. To / is / he / going / the / cinema / tonight.", "3. Prefer / he / to / reading / writing." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. He is good at cooking.\n2. He is going to the cinema tonight.\n3. He prefers writing to reading."
 
       }
     ]
@@ -259,47 +289,47 @@
     "Questions": [
       {
         "Id": 1,
-        "Text": "Hansı rəng qırmızıdır?",
-        "Options": [ "Mavi", "Qırmızı", "Yaşıl" ],
+        "Text": "ifserjsrgusrignprsuign?",
+        "Options": [ "mka'[rf[rf]]'", "efkmefi", "wlefomwkemf" ],
         "ImageUrl": null,
         "QuestionType": "MultipleChoice",
-        "CorrectAnswer": "Mavi"
+        "CorrectAnswer": "wlefomwkemf"
 
       },
       {
         "Id": 2,
-        "Text": "Bu şəklin təsvirini yazın:",
+        "Text": "j;peuifpwefiujpwef",
         "Options": null,
         "ImageUrl": "/images/cat.jpg",
         "QuestionType": "ImageBased",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "kjdekdke"
 
       },
       {
         "Id": 3,
-        "Text": "Azərbaycanın paytaxtı hansı şəhərdir?",
+        "Text": "piwuefjpaiefua?",
         "Options": null,
         "ImageUrl": null,
         "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "a[eoirfj[oaerifj"
 
       },
       {
         "Id": 4,
-        "Text": "Azərbaycanın milli valyutası hansıdır?",
+        "Text": "uerfjiojfefwji?",
         "Options": null,
         "ImageUrl": null,
         "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "lrgteuoidmk"
 
       },
       {
         "Id": 5,
-        "Text": "Dünyanın ən sürətli heyvanı hansıdır?",
+        "Text": " ənwoifkwoeifjoweifr?",
         "Options": null,
         "ImageUrl": null,
         "QuestionType": "TextOnly",
-        "CorrectAnswer": "Alma"
+        "CorrectAnswer": "wpoefkpwoekf"
 
       }
     ]

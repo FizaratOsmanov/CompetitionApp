@@ -43,9 +43,9 @@ namespace CompetitionApp.Controllers
             return View(question);
         }
 
-        private List<Topic> GetTopicsFromJson()
+        public List<Topic> GetTopicsFromJson()
         {
-            var jsonData = System.IO.File.ReadAllText(_jsonPath);
+            var jsonData= System.IO.File.ReadAllText(_jsonPath);
             return JsonSerializer.Deserialize<List<Topic>>(jsonData);
         }
         public ActionResult RevealAnswer(int topicId, int questionId)
@@ -58,14 +58,15 @@ namespace CompetitionApp.Controllers
                 return NotFound();
             }
 
-            var question = topic?.Questions.FirstOrDefault(q => q.Id == questionId);
+            var question = topic.Questions.FirstOrDefault(q => q.Id == questionId);
 
             if (question == null)
             {
                 return NotFound();
             }
 
-            return View(question); 
+            ViewBag.TopicId = topicId; 
+            return View(question);
         }
 
     }

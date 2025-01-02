@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "cjmqWgrXFfjZtBP5uhKyF+iBf6fwtIcWmUiFDF/x8Ok=",
+  "Hash": "nR4AYskI4eaOqq+EQtFwj+9PrzDrPcY1Q5oZsxcBHwU=",
   "Source": "CompetitionApp",
   "BasePath": "_content/CompetitionApp",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CompetitionApp\\wwwroot",
+      "Source": "CompetitionApp",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "images/dog#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a1fjzhw1bh",
+      "Integrity": "3vmSqmeHRT4n6kVKczriU564hJwkwaq+9d50pLoFklU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dog.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/dog.a1fjzhw1bh.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "197744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3vmSqmeHRT4n6kVKczriU564hJwkwaq+9d50pLoFklU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a1fjzhw1bh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dog.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3vmSqmeHRT4n6kVKczriU564hJwkwaq+9d50pLoFklU="
+        }
+      ]
+    },
+    {
+      "Route": "images/dog.jpg",
+      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "197744"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3vmSqmeHRT4n6kVKczriU564hJwkwaq+9d50pLoFklU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3vmSqmeHRT4n6kVKczriU564hJwkwaq+9d50pLoFklU="
+        }
+      ]
+    }
+  ]
 }

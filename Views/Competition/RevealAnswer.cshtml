@@ -2,30 +2,144 @@
 @model Question
 
 @{
-    ViewBag.Title = "Doğru Cavab";
+	ViewBag.Title = "Doğru Cavab";
 }
 
 <!DOCTYPE html>
 <html lang="az">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewBag.Title</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<style>
+		body {
+			background: linear-gradient(to bottom, #f5deb3, #deb887);
+			font-family: 'Arial', sans-serif;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		.main-content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+			text-align: center;
+		}
+
+		.content-box {
+			background-color: white;
+			border-radius: 8px;
+			padding: 95px;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+			max-width: 600px;
+			width: 100%;
+			margin: 20px 0;
+		}
+
+		h1 {
+			font-size: 28px;
+			font-weight: bold;
+			color: #333;
+			margin-bottom: 20px;
+		}
+
+		.correct-answer {
+			font-size: 24px;
+			font-weight: bold;
+			color: #4CAF50;
+			margin-top: 20px;
+			padding: 15px;
+			background-color: #d4edda;
+			border-radius: 10px;
+			box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease;
+		}
+
+			.correct-answer:hover {
+				background-color: #c3e6cb;
+				transform: scale(1.4);
+			}
+
+		.correct-answer-sentences {
+			font-size: 24px;
+			font-weight: bold;
+			color: #4CAF50;
+			margin-top: 20px;
+			padding: 15px;
+			background-color: #d4edda;
+			border-radius: 10px;
+			box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+			transition: all 0.3s ease;
+		}
+
+		.correct-answer-sentences:hover {
+			background-color: #c3e6cb;
+			transform: scale(1.4);
+		}
+		.text-danger {
+			font-size: 18px;
+			color: #e74c3c;
+			margin-top: 20px;
+		}
+
+		.btn-secondary {
+			background-color: #ff6f61;
+			border-color: #ff6f61;
+			font-size: 30px;
+			padding: 20px 40px;
+			border-radius: 15px;
+			transition: background-color 0.3s, transform 0.3s;
+		}
+
+			.btn-secondary:hover {
+				background-color: #e55d50;
+				transform: scale(1.05);
+			}
+
+		.answer-lines div {
+			font-size: 18px;
+			color: #555;
+			margin-bottom: 10px;
+		}
+
+		.nav-buttons {
+			
+			margin-top: 30px;
+		}
+	</style>
 </head>
 <body>
-    <div class="question-container">
-        @if (Model != null)
-        {
-            <h1>@Model.Text</h1>
-            <p><strong>Doğru Cavab:</strong> @Model.CorrectAnswer</p>
-        }
-        else
-        {
-            <p>Suallarla bağlı məlumat tapılmadı.</p>
-        }
+	<div class="main-content">
+		<div class="content-box">
+			@if (Model != null && !(Model.Text == "Make a sentence"))
+			{
+				<h1>@Model.Text</h1>
+				<div class="correct-answer" style="font-size: @ViewBag.FontSize;">
+					<strong>@Model.CorrectAnswer</strong>
+				</div>
+			}
+			@if (!string.IsNullOrEmpty(Model.CorrectAnswer) && Model.Text == "Make a sentence")
+			{
+				<h1>@Model.Text</h1>
 
-        <a href="@Url.Action("Topics", "Competition")" class="btn btn-secondary mt-4">Geri</a>
-    </div>
+				var lines = Model.CorrectAnswer.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries);
+				foreach (var line in lines)
+				{
+					<div class="correct-answer-sentences">@line.Trim()</div>
+				}
+
+			}
+			@if (Model == null)
+			{
+				<p class="text-danger">Suallarla bağlı məlumat tapılmadı.</p>
+			}
+		</div>
+		<div class="nav-buttons">
+			<a href="@Url.Action("Topics", "Competition")" class="btn btn-secondary">Geri</a>
+		</div>
+	</div>
 </body>
 </html>

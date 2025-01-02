@@ -2,7 +2,7 @@
 
 @model List<Topic>
 @{
-    ViewBag.Title = "Mövzular";
+    ViewBag.Title = "Topics";
 }
 <!DOCTYPE html>
 <html lang="az">
@@ -27,7 +27,7 @@
 
         h1 {
             font-size: 2.5rem;
-            color: #007bff; 
+            color:aliceblue; 
             margin-bottom: 40px;
         }
 
@@ -56,14 +56,15 @@
         }
 
             .btn-info:hover {
-                background-color:blue; 
+                background-color:blue;
                 box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+                transform:scale(1.16)
             }
     </style>
 </head>
 <body>
     <div>
-        <h1>Mövzular</h1>
+        <h1>Topics</h1>
         <div class="row">
             @foreach (var topic in Model)
             {

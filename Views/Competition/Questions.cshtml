@@ -67,10 +67,24 @@
                 font-size: 5rem; /* Rəqəmlərin daha böyük görünməsi üçün */
                 font-weight: bold;
             }
+
+        .btn-secondary {
+            background-color: brown;
+            font-size: 30px;
+            color: white;
+            padding: 15px 35px;
+            margin-top: 100px; 
+            position: relative;
+            top: 50px;
+        }
+
+            .btn-secondary:hover {
+                background-color: #5a6268;
+            }
     </style>
 </head>
 <body>
-    <h1>Suallar</h1>
+    <h1>Questions</h1>
     <div class="row">
         @foreach (var question in Model.Questions)
         {
@@ -81,5 +95,7 @@
             </div>
         }
     </div>
+    <a href="javascript:window.history.back();" class="btn btn-secondary mt-4">Geri</a>
+
 </body>
 </html>
