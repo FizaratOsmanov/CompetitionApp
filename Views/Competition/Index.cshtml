@@ -20,10 +20,10 @@
             height: 100vh;
             text-align: center;
             opacity: 1;
-            transition: opacity 0.5s ease-in-out; /* Tədrici solğunlaşma */
+            transition: opacity 0.5s ease-in-out; 
         }
 
-        /* Gradient animasiyası */
+    
   
 
         .center-content {
@@ -66,11 +66,11 @@
 
     <script>
         document.getElementById('startButton').addEventListener('click', function (event) {
-            event.preventDefault(); // Default davranışı dayandırır
-            document.body.style.opacity = '0'; // Səhifəni solğunlaşdırır
+            event.preventDefault(); 
+            document.body.style.opacity = '0';
             setTimeout(function () {
-                window.location.href = '/Competition/Topics'; // Yeni səhifəyə yönləndirir
-            }, 500); // 0.5 saniyə gözləmə
+                window.location.href = '/Competition/Topics'; 
+            }, 500); 
         });
     </script>
 </body>
