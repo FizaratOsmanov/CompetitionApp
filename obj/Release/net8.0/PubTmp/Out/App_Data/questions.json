@@ -1,0 +1,337 @@
+﻿[
+  {
+    "Id": 1,
+    "Name": "Grammar",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "What time ___ you wake up every day?",
+        "Options": [ "a) do", "b) does", "c) are" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) do"
+      },
+      {
+        "Id": 2,
+        "Text": "He hurt ___ while playing football.",
+        "Options": [ "a) himself", "b) itself", "c) myself" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) himself"
+
+      },
+      {
+        "Id": 3,
+        "Text": "This road is ___ than the other one.",
+        "Options": [ "a) long", "b) longer", "c) longest" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "b) longer"
+
+      },
+      {
+        "Id": 4,
+        "Text": "There isn’t ___ milk left in the fridge.",
+        "Options": [ "a) some", "b) any", "c) many" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "b) any"
+      },
+      {
+        "Id": 5,
+        "Text": "Which of these is a proper noun?",
+        "Options": [ "a) book", "b) city", "c) London" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "c) London"
+
+      },
+      {
+        "Id": 6,
+        "Text": "I have ___ books,and this is the ___ time I am reading them.",
+        "Options": [ "a) three,third", "b) third,three", "c) three,three" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) three,third"
+
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "Name": "Mövzu 2",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "eifjwoiefjwoifj",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "rrferfera"
+
+      },
+      {
+        "Id": 2,
+        "Text": "eifjwoiefjwoifj",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "rrferfera"
+
+      },
+      {
+        "Id": 3,
+        "Text": "eifjwoiefjwoifj",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "rrferfera"
+
+      },
+      {
+        "Id": 4,
+        "Text": "eifjwoiefjwoifj",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "rrferfera"
+
+      },
+      {
+        "Id": 5,
+        "Text": "eifjwoiefjwoifj",
+        "Options": null,
+        "ImageUrl": "/images/dog.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "rrferfera"
+
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "Name": "Translate",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "O, hər gün məktəbə gedir.",
+        "Options": [ "a) She goes to school every day.", "b) She reads books every day.", "c) She eats breakfast every day." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) She goes to school every day."
+
+      },
+      {
+        "Id": 2,
+        "Text": "They go to school in the morning.",
+        "Options": [ "a) Onlar səhər məktəbə gedirlər.", "b) Onlar hər gün parkda oynayırlar.", "c) Onlar səhər yeməyi yeyirlər." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Onlar səhər məktəbə gedirlər."
+
+      },
+      {
+        "Id": 3,
+        "Text": "Onlar futbol oynayır.",
+        "Options": [ "a) They play football.", "b) They are playing football.", "c) They played football." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) They play football."
+      },
+      {
+        "Id": 4,
+        "Text": "I drink water every day.",
+        "Options": [ "a) Mən hər gün su içirəm.", "b) Mən hər gün məktəbə gedirəm.", "c) Mən hər gün kitab oxuyuram." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Mən hər gün su içirəm."
+
+      },
+      {
+        "Id": 5,
+        "Text": "She reads books every day.",
+        "Options": [ "a) O, hər gün kitab oxuyur.", "b) O, hər gün məktəbə gedir.", "c) O, hər gün yemək yeyir." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) O, hər gün kitab oxuyur."
+
+      },
+      {
+        "Id": 6,
+        "Text": "Biz dərsləri oxuyuruq.",
+        "Options": [ "a) We read lessons.", "b) We are reading lessons.", "c) We read lessons every day." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "c) We read lessons every day."
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "Name": "Synonyms and Antonyms",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "What is the opposite of  \"smart\"?",
+        "Options": [ "a) Stupid", "b) Clever", "c) Small" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Stupid"
+      },
+      {
+        "Id": 2,
+        "Text": "What is another word for  \"domestic\"?",
+        "Options": [ "a) Wild", "b) Home", "c) Dangerous" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "b) Home"
+
+      },
+      {
+        "Id": 3,
+        "Text": "What is the opposite of  \"difficult\"?",
+        "Options": [ "a) Easy", "b) Hard", "c) Boring" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Easy"
+      },
+      {
+        "Id": 4,
+        "Text": "What is another word for  \"small\"?",
+        "Options": [ "a) Tiny", "b) Big", "c) Smart" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Tiny"
+      },
+      {
+        "Id": 5,
+        "Text": "What is the opposite of  \"tiny\"?",
+        "Options": [ "a) Big", "b) Clever", "c) Small" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Big"
+
+      },
+      {
+        "Id": 6,
+        "Text": "What is another word for  \"clever\"?",
+        "Options": [ "a) Smart", "b) Slow", "c) Kind" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "a) Smart"
+
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "Name": "Make a sentence",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "Make a sentence",
+        "Options": [ "1. I / at / am / playing / good / football.", "2. going / to / am / I / the / market / tomorrow.", "3. prefer / I / to / swimming / running." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. I am good at playing football.\n2. I am going to the market tomorrow.\n3. I prefer swimming to running."
+
+      },
+      {
+        "Id": 2,
+        "Text": "Make a sentence",
+        "Options": [ "1. She / at / is / cooking / good.", "2. to / is / she / going / the / cinema / tonight.", "3. prefer / she / to / reading / writing." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. She is good at cooking.\n2. She is going to the cinema tonight.\n3. She prefers writing to reading."
+
+      },
+      {
+        "Id": 3,
+        "Text": "Make a sentence",
+        "Options": [ "1. They / at / are / playing / good / football.", "2. To / are / they / going / the / market / tomorrow.", "3. Prefer / they / to / swimming / running." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. They are good at playing football.\n2. They are going to the market tomorrow.\n3. They prefer swimming to running."
+
+      },
+      {
+        "Id": 4,
+        "Text": "Make a sentence",
+        "Options": [ "1. We / at / are / cooking / good.", "2. To / are / we / going / the / cinema / tonight.", "3. Prefer / we / to / reading / writing." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. We are good at cooking.\n2. We are going to the cinema tonight.\n3. We prefer writing to reading."
+
+      },
+      {
+        "Id": 5,
+        "Text": "Make a sentence",
+        "Options": [ "1. You / at / are / playing / good / football.", "2. To / are / you / going / the / market / tomorrow.", "3. Prefer / you / to / swimming / running." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. You are good at playing football.\n2. You are going to the market tomorrow.\n3. You prefer swimming to running."
+
+      },
+      {
+        "Id": 6,
+        "Text": "Make a sentence",
+        "Options": [ "1. He / at / is / cooking / good.", "2. To / is / he / going / the / cinema / tonight.", "3. Prefer / he / to / reading / writing." ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "1. He is good at cooking.\n2. He is going to the cinema tonight.\n3. He prefers writing to reading."
+
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "Name": "Mövzu 6",
+    "Questions": [
+      {
+        "Id": 1,
+        "Text": "ifserjsrgusrignprsuign?",
+        "Options": [ "mka'[rf[rf]]'", "efkmefi", "wlefomwkemf" ],
+        "ImageUrl": null,
+        "QuestionType": "MultipleChoice",
+        "CorrectAnswer": "wlefomwkemf"
+
+      },
+      {
+        "Id": 2,
+        "Text": "j;peuifpwefiujpwef",
+        "Options": null,
+        "ImageUrl": "/images/cat.jpg",
+        "QuestionType": "ImageBased",
+        "CorrectAnswer": "kjdekdke"
+
+      },
+      {
+        "Id": 3,
+        "Text": "piwuefjpaiefua?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "a[eoirfj[oaerifj"
+
+      },
+      {
+        "Id": 4,
+        "Text": "uerfjiojfefwji?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "lrgteuoidmk"
+
+      },
+      {
+        "Id": 5,
+        "Text": " ənwoifkwoeifjoweifr?",
+        "Options": null,
+        "ImageUrl": null,
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "wpoefkpwoekf"
+
+      }
+    ]
+  }
+]
