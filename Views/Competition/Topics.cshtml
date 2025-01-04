@@ -13,21 +13,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color:darkgreen; 
-            color: #343a40; 
+            background-color: darkgreen;
+            color: #343a40;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh; 
+            height: 100vh;
             text-align: center;
         }
 
         h1 {
             font-size: 2.5rem;
-            color:aliceblue; 
+            color: aliceblue;
             margin-bottom: 40px;
         }
 
@@ -35,7 +35,7 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 20px; 
+            gap: 20px;
         }
 
         .col-md-4 {
@@ -44,22 +44,28 @@
         }
 
         .btn-info {
-            background-color: #17a2b8; 
+            background-color: #17a2b8;
             border: none;
             color: #ffffff;
             padding: 60px 80px;
-            font-size: 1.7rem;
+            font-size: 2rem;
             border-radius: 10px;
             width: 150%;
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease; 
         }
 
             .btn-info:hover {
-                background-color:blue;
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-                transform:scale(1.16)
+                background-color: #007bff; 
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+                transform: scale(1.1);
             }
+
+            .btn-info:active {
+                transform: scale(0.98); 
+            }
+
     </style>
 </head>
 <body>

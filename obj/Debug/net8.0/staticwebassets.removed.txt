@@ -1,0 +1,5 @@
+C:\Users\LENOVO\Desktop\CompetitionApp\wwwroot\audios\family.mp3
+C:\Users\LENOVO\Desktop\CompetitionApp\wwwroot\audios\myDailyRoutine.mp3
+C:\Users\LENOVO\Desktop\CompetitionApp\wwwroot\audios\myFamilyLife.mp3
+C:\Users\LENOVO\Desktop\CompetitionApp\wwwroot\audios\myFavoriteSport.mp3
+C:\Users\LENOVO\Desktop\CompetitionApp\wwwroot\audios\school.mp3

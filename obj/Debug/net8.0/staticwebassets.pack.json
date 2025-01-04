@@ -1,6 +1,30 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "PackagePath": "staticwebassets\\audios\\FamilySound.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "PackagePath": "staticwebassets\\audios\\MyDailyRoutineSound.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "PackagePath": "staticwebassets\\audios\\MyDreamSound.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "PackagePath": "staticwebassets\\audios\\MyFamilyLifeSound.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "PackagePath": "staticwebassets\\audios\\MyFavoriteSportSound.mp3"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "PackagePath": "staticwebassets\\audios\\SchoolSound.mp3"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "PackagePath": "staticwebassets\\images\\dog.jpg"
     },

@@ -4,73 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yarışmaya Xoş Gəldiniz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #343a40;
-            background: linear-gradient(135deg, #007bff, #6610f2);
-            background-size: 400% 400%;
-            animation: gradientAnimation 10s ease infinite;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            background: linear-gradient(135deg, #4e73df, #f8c800);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             text-align: center;
-            opacity: 1;
-            transition: opacity 0.5s ease-in-out; 
+            overflow: hidden; 
         }
 
-    
-  
-
         .center-content {
-            background: rgba(255, 255, 255, 0.85);
+            background: rgba(255, 255, 255, 0.9);
             padding: 40px;
             border-radius: 20px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 600px;
+            transition: transform 1s ease-out; 
         }
 
         h1 {
-            font-size: 2.5rem;
-            font-weight: bold;
+            font-size: 3rem;
+            font-weight: 700;
             color: #343a40;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            transition: color 0.3s ease;
         }
+
+            h1:hover {
+                color: #FF6347;
+            }
 
         .btn-primary {
             padding: 15px 30px;
             font-size: 1.5rem;
             border-radius: 50px;
-            background-color: #007bff;
+            background-color: #FF6347;
             border: none;
             color: white;
             transition: all 0.3s ease-in-out;
-            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+            box-shadow: 0 4px 15px rgba(255, 99, 71, 0.5);
         }
 
             .btn-primary:hover {
-                background-color: #0056b3;
-                box-shadow: 0 6px 20px rgba(0, 86, 179, 0.6);
+                background-color: #FF4500;
+                box-shadow: 0 6px 20px rgba(255, 69, 0, 0.6);
                 transform: scale(1.1);
             }
+
+            .btn-primary:active {
+                transform: scale(0.95);
+            }
+
+        .icon {
+            font-size: 4rem;
+            color: #FFD700;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+            .icon:hover {
+                transform: rotate(15deg);
+                color: #FF6347;
+            }
+
+        .center-content:hover {
+            transform: scale(1.05);
+        }
+
+        .fade-out-zoom {
+            transform: scale(0.8); 
+            opacity: 0;
+            transition: transform 1s ease, opacity 1s ease;
+        }
+
+        .fade-out-slide {
+            transform: translateX(100%);
+            opacity: 0;
+            transition: transform 1s ease, opacity 1s ease;
+        }
     </style>
 </head>
 <body>
-    <div class="center-content">
-        <h1>Yarışmaya Xoş Gəldiniz</h1>
-        <a id="startButton" class="btn btn-primary">Start</a>
+    <div class="center-content" id="content">
+        <div class="icon">
+            <i class="fas fa-trophy"></i>
+        </div>
+        <h1>Welcome</h1>
+        <a id="startButton" class="btn btn-primary">Başla</a>
     </div>
 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script>
         document.getElementById('startButton').addEventListener('click', function (event) {
-            event.preventDefault(); 
-            document.body.style.opacity = '0';
+            event.preventDefault();
+
+            var content = document.getElementById('content');
+            content.classList.add('fade-out-zoom'); 
+
             setTimeout(function () {
-                window.location.href = '/Competition/Topics'; 
-            }, 500); 
+                window.location.href = '/Competition/Topics';
+            }, 1000); 
         });
     </script>
 </body>

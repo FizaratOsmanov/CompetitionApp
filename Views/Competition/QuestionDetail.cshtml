@@ -134,9 +134,17 @@
         {
             <img src="@Model.ImageUrl" alt="Şəkil" />
         }
-
-        <a href="@Url.Action("RevealAnswer", "Competition", new { topicId = ViewBag.TopicId, questionId = Model.Id })" class="btn mt-4">Doğru Cavabı Göstər</a>
-        <a href="javascript:window.history.back();" class="btn btn-secondary mt-4">Geri</a>
+        @if (!string.IsNullOrEmpty(Model.AudioUrl))
+        {
+            <div class="audio-container">
+                <audio controls>
+                    <source src="@Model.AudioUrl" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        }
+        <a href="@Url.Action("RevealAnswer", "Competition", new { topicId = ViewBag.TopicId, questionId = Model.Id })" class="btn mt-4">Show the correct answer</a>
+        <a href="javascript:window.history.back();" class="btn btn-secondary mt-4">Back</a>
 
     </div>
 

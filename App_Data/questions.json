@@ -8,6 +8,8 @@
         "Text": "What time ___ you wake up every day?",
         "Options": [ "a) do", "b) does", "c) are" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) do"
       },
@@ -16,6 +18,8 @@
         "Text": "He hurt ___ while playing football.",
         "Options": [ "a) himself", "b) itself", "c) myself" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) himself"
 
@@ -25,6 +29,8 @@
         "Text": "This road is ___ than the other one.",
         "Options": [ "a) long", "b) longer", "c) longest" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "b) longer"
 
@@ -34,6 +40,8 @@
         "Text": "There isn’t ___ milk left in the fridge.",
         "Options": [ "a) some", "b) any", "c) many" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "b) any"
       },
@@ -42,6 +50,8 @@
         "Text": "Which of these is a proper noun?",
         "Options": [ "a) book", "b) city", "c) London" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "c) London"
 
@@ -51,6 +61,8 @@
         "Text": "I have ___ books,and this is the ___ time I am reading them.",
         "Options": [ "a) three,third", "b) third,three", "c) three,three" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) three,third"
 
@@ -66,6 +78,8 @@
         "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
+        "AudioUrl": null,
+
         "QuestionType": "ImageBased",
         "CorrectAnswer": "rrferfera"
 
@@ -75,6 +89,8 @@
         "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
+        "AudioUrl": null,
+
         "QuestionType": "ImageBased",
         "CorrectAnswer": "rrferfera"
 
@@ -84,6 +100,8 @@
         "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
+        "AudioUrl": null,
+
         "QuestionType": "ImageBased",
         "CorrectAnswer": "rrferfera"
 
@@ -93,6 +111,8 @@
         "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
+        "AudioUrl": null,
+
         "QuestionType": "ImageBased",
         "CorrectAnswer": "rrferfera"
 
@@ -102,6 +122,8 @@
         "Text": "eifjwoiefjwoifj",
         "Options": null,
         "ImageUrl": "/images/dog.jpg",
+        "AudioUrl": null,
+
         "QuestionType": "ImageBased",
         "CorrectAnswer": "rrferfera"
 
@@ -117,6 +139,8 @@
         "Text": "O, hər gün məktəbə gedir.",
         "Options": [ "a) She goes to school every day.", "b) She reads books every day.", "c) She eats breakfast every day." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) She goes to school every day."
 
@@ -126,6 +150,8 @@
         "Text": "They go to school in the morning.",
         "Options": [ "a) Onlar səhər məktəbə gedirlər.", "b) Onlar hər gün parkda oynayırlar.", "c) Onlar səhər yeməyi yeyirlər." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Onlar səhər məktəbə gedirlər."
 
@@ -135,6 +161,8 @@
         "Text": "Onlar futbol oynayır.",
         "Options": [ "a) They play football.", "b) They are playing football.", "c) They played football." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) They play football."
       },
@@ -143,6 +171,8 @@
         "Text": "I drink water every day.",
         "Options": [ "a) Mən hər gün su içirəm.", "b) Mən hər gün məktəbə gedirəm.", "c) Mən hər gün kitab oxuyuram." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Mən hər gün su içirəm."
 
@@ -161,6 +191,8 @@
         "Text": "Biz dərsləri oxuyuruq.",
         "Options": [ "a) We read lessons.", "b) We are reading lessons.", "c) We read lessons every day." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "c) We read lessons every day."
       }
@@ -175,6 +207,8 @@
         "Text": "What is the opposite of  \"smart\"?",
         "Options": [ "a) Stupid", "b) Clever", "c) Small" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Stupid"
       },
@@ -183,6 +217,8 @@
         "Text": "What is another word for  \"domestic\"?",
         "Options": [ "a) Wild", "b) Home", "c) Dangerous" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "b) Home"
 
@@ -192,6 +228,8 @@
         "Text": "What is the opposite of  \"difficult\"?",
         "Options": [ "a) Easy", "b) Hard", "c) Boring" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Easy"
       },
@@ -200,6 +238,8 @@
         "Text": "What is another word for  \"small\"?",
         "Options": [ "a) Tiny", "b) Big", "c) Smart" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Tiny"
       },
@@ -208,6 +248,8 @@
         "Text": "What is the opposite of  \"tiny\"?",
         "Options": [ "a) Big", "b) Clever", "c) Small" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Big"
 
@@ -217,6 +259,8 @@
         "Text": "What is another word for  \"clever\"?",
         "Options": [ "a) Smart", "b) Slow", "c) Kind" ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "a) Smart"
 
@@ -232,6 +276,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. I / at / am / playing / good / football.", "2. going / to / am / I / the / market / tomorrow.", "3. prefer / I / to / swimming / running." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. I am good at playing football.\n2. I am going to the market tomorrow.\n3. I prefer swimming to running."
 
@@ -241,6 +287,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. She / at / is / cooking / good.", "2. to / is / she / going / the / cinema / tonight.", "3. prefer / she / to / reading / writing." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. She is good at cooking.\n2. She is going to the cinema tonight.\n3. She prefers writing to reading."
 
@@ -250,6 +298,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. They / at / are / playing / good / football.", "2. To / are / they / going / the / market / tomorrow.", "3. Prefer / they / to / swimming / running." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. They are good at playing football.\n2. They are going to the market tomorrow.\n3. They prefer swimming to running."
 
@@ -259,6 +309,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. We / at / are / cooking / good.", "2. To / are / we / going / the / cinema / tonight.", "3. Prefer / we / to / reading / writing." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. We are good at cooking.\n2. We are going to the cinema tonight.\n3. We prefer writing to reading."
 
@@ -268,6 +320,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. You / at / are / playing / good / football.", "2. To / are / you / going / the / market / tomorrow.", "3. Prefer / you / to / swimming / running." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. You are good at playing football.\n2. You are going to the market tomorrow.\n3. You prefer swimming to running."
 
@@ -277,6 +331,8 @@
         "Text": "Make a sentence",
         "Options": [ "1. He / at / is / cooking / good.", "2. To / is / he / going / the / cinema / tonight.", "3. Prefer / he / to / reading / writing." ],
         "ImageUrl": null,
+        "AudioUrl": null,
+
         "QuestionType": "MultipleChoice",
         "CorrectAnswer": "1. He is good at cooking.\n2. He is going to the cinema tonight.\n3. He prefers writing to reading."
 
@@ -285,49 +341,63 @@
   },
   {
     "Id": 6,
-    "Name": "Mövzu 6",
+    "Name": "Listening",
     "Questions": [
       {
         "Id": 1,
-        "Text": "ifserjsrgusrignprsuign?",
-        "Options": [ "mka'[rf[rf]]'", "efkmefi", "wlefomwkemf" ],
+        "Text": "Family",
+        "Options": null,
         "ImageUrl": null,
-        "QuestionType": "MultipleChoice",
+        "AudioUrl": "/audios/FamilySound.mp3",
+        "QuestionType": "TextOnly",
         "CorrectAnswer": "wlefomwkemf"
 
       },
       {
         "Id": 2,
-        "Text": "j;peuifpwefiujpwef",
+        "Text": "My Daily Routine",
         "Options": null,
-        "ImageUrl": "/images/cat.jpg",
-        "QuestionType": "ImageBased",
+        "ImageUrl": null,
+        "AudioUrl": "/audios/MyDailyRoutineSound.mp3",
+        "QuestionType": "TextOnly",
         "CorrectAnswer": "kjdekdke"
 
       },
       {
         "Id": 3,
-        "Text": "piwuefjpaiefua?",
+        "Text": "My Family Life",
         "Options": null,
         "ImageUrl": null,
+        "AudioUrl": "/audios/MyFamilyLifeSound.mp3",
         "QuestionType": "TextOnly",
         "CorrectAnswer": "a[eoirfj[oaerifj"
 
       },
       {
         "Id": 4,
-        "Text": "uerfjiojfefwji?",
+        "Text": "My Favorite Sport",
         "Options": null,
         "ImageUrl": null,
+        "AudioUrl": "/audios/MyFavoriteSportSound.mp3",
         "QuestionType": "TextOnly",
         "CorrectAnswer": "lrgteuoidmk"
 
       },
       {
         "Id": 5,
-        "Text": " ənwoifkwoeifjoweifr?",
+        "Text": "School",
         "Options": null,
         "ImageUrl": null,
+        "AudioUrl": "/audios/SchoolSound.mp3",
+        "QuestionType": "TextOnly",
+        "CorrectAnswer": "wpoefkpwoekf"
+      },
+      {
+        "Id": 6,
+        "Text": "My Dream",
+        "Options": null,
+        "ImageUrl": null,
+        "AudioUrl": "/audios/MyDreamSound.mp3",
         "QuestionType": "TextOnly",
         "CorrectAnswer": "wpoefkpwoekf"
 
