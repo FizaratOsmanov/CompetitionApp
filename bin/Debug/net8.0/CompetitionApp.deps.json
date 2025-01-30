@@ -11,6 +11,7 @@
           "FluentAssertions": "7.0.0",
           "Grpc.Core": "2.46.6",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "8.0.11",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.21.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -104,6 +105,7 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.21.0": {},
       "Microsoft.Win32.SystemEvents/6.0.0": {
         "runtime": {
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
@@ -274,6 +276,13 @@
       "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NudeHOE56YsY59HYY89akRMup8Ho+7Y3cADTGjajjWroXVU9RQai2nA6PfteB8AuzmRHZ5NZQB2BnWhQEul5g==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.21.0",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/6.0.0": {
       "type": "package",

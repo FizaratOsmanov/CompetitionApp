@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dbc7e509-b977-434a-a4d6-6d913240bd26")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7904159535f2287fd5ec3ff4271a16520c8cf8c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a313590a064a8874e4cca7cf6cba97960298d734")]
 [assembly: System.Reflection.AssemblyProductAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CompetitionApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

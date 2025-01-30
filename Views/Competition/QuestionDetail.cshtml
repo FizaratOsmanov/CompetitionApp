@@ -1,5 +1,6 @@
 ﻿@using CompetitionApp.Model;
-@model Question
+@model Question 
+
 
 @{
     ViewBag.Title = "Sual Detalları";
@@ -14,7 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
-            background-color:chartreuse;
+            background-color: aqua;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
@@ -143,7 +144,12 @@
                 </audio>
             </div>
         }
-        <a href="@Url.Action("RevealAnswer", "Competition", new { topicId = ViewBag.TopicId, questionId = Model.Id })" class="btn mt-4">Show the correct answer</a>
+
+        @if (Model != null && !(Model.Text == "Family") && !(Model.Text == "My Daily Routine") && !(Model.Text == "My Family Life") && !(Model.Text == "My Favorite Sport") && !(Model.Text == "School") && !(Model.Text == "My Dream"))
+        {
+            <a href="@Url.Action("RevealAnswer", "Competition", new { topicId = ViewBag.TopicId, questionId = Model.Id })" class="btn mt-4">Show the correct answer</a>
+        }
+        
         <a href="javascript:window.history.back();" class="btn btn-secondary mt-4">Back</a>
 
     </div>

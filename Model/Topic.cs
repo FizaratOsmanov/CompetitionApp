@@ -2,8 +2,8 @@
 {
     public class Topic
     {
-        public int Id { get; set; } // Mövzunun unikal ID-si
-        public string Name { get; set; } // Mövzunun adı
-        public List<Question> Questions { get; set; } // 
+        public int Id { get; set; } 
+        public string Name { get; set; } 
+        public List<Question> Questions { get; set; } 
     }
 }

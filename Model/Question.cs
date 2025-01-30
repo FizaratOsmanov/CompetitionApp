@@ -7,9 +7,7 @@
         public List<string> Options { get; set; } 
         public string ImageUrl { get; set; }
         public string AudioUrl { get; set; }
-        public string QuestionType { get; set; } 
-
+        public string QuestionType { get; set; }        
         public string? CorrectAnswer { get; set; } 
-
     }
 }

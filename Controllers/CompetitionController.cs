@@ -10,12 +10,12 @@ namespace CompetitionApp.Controllers
 {
     public class CompetitionController : Controller
     {
-    private readonly string _jsonPath;
+        private readonly string _jsonPath;
 
-    public CompetitionController(IWebHostEnvironment env)
-    {
-        _jsonPath = Path.Combine(env.ContentRootPath, "App_Data", "questions.json");
-    }
+        public CompetitionController(IWebHostEnvironment env)
+        {
+            _jsonPath = Path.Combine(env.ContentRootPath, "App_Data", "questions.json");
+        }
         public ActionResult Index()
         {
             return View();
@@ -45,27 +45,23 @@ namespace CompetitionApp.Controllers
 
         public List<Topic> GetTopicsFromJson()
         {
-            var jsonData= System.IO.File.ReadAllText(_jsonPath);
+            var jsonData = System.IO.File.ReadAllText(_jsonPath);
             return JsonSerializer.Deserialize<List<Topic>>(jsonData);
         }
         public ActionResult RevealAnswer(int topicId, int questionId)
         {
             var topics = GetTopicsFromJson();
             var topic = topics.FirstOrDefault(t => t.Id == topicId);
-
             if (topic == null)
             {
                 return NotFound();
             }
-
             var question = topic.Questions.FirstOrDefault(q => q.Id == questionId);
-
             if (question == null)
             {
                 return NotFound();
             }
-
-            ViewBag.TopicId = topicId; 
+            ViewBag.TopicId = topicId;
             return View(question);
         }
 
