@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nR4AYskI4eaOqq+EQtFwj+9PrzDrPcY1Q5oZsxcBHwU=",
+  "Hash": "3f2yHdbQ1c36YxwDM8EqgfUACDc693AJcOKfE9265V8=",
   "Source": "CompetitionApp",
   "BasePath": "_content/CompetitionApp",
   "Mode": "Default",
@@ -10,17 +10,143 @@
     {
       "Name": "CompetitionApp\\wwwroot",
       "Source": "CompetitionApp",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/FamilySound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bzs9fr3zwy",
+      "Integrity": "96Wu3jtW4CpA3vSt6ssr0fnR4b8xoot46DO0fZQItcI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\FamilySound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/MyDailyRoutineSound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v791izjn8m",
+      "Integrity": "FW3XJzh6sQrWEXCW5eyUh5cmT7Z/rz9OcZfGiOD8jv4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\MyDailyRoutineSound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/MyDreamSound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iohg1b47o1",
+      "Integrity": "fpV59hadGDaMxC6W0s5y5cTyjlZDjH2eXVFW911HC6Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\MyDreamSound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/MyFamilyLifeSound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tl3xrn08pc",
+      "Integrity": "f7gk0Hl+0mPQut/c/Siw7PeLhEtY4WzF+UucTawQwT4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\MyFamilyLifeSound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/MyFavoriteSportSound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tnvw7oxrqx",
+      "Integrity": "twB2lRU+Hz2vd9lh19bOD9S7gyO1Fs6qH+xU1C99ZW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\MyFavoriteSportSound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
+      "BasePath": "_content/CompetitionApp",
+      "RelativePath": "audios/SchoolSound#[.{fingerprint}]?.mp3",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m19p4vq14i",
+      "Integrity": "CjqU/9/Ep4wBlHsiquMcpBZA7ahZuJgxpxmh/GDN6Xc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\audios\\SchoolSound.mp3"
+    },
+    {
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "SourceId": "CompetitionApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "images/dog#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -40,8 +166,500 @@
   ],
   "Endpoints": [
     {
+      "Route": "audios/FamilySound.bzs9fr3zwy.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "841058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96Wu3jtW4CpA3vSt6ssr0fnR4b8xoot46DO0fZQItcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bzs9fr3zwy"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/FamilySound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-96Wu3jtW4CpA3vSt6ssr0fnR4b8xoot46DO0fZQItcI="
+        }
+      ]
+    },
+    {
+      "Route": "audios/FamilySound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "841058"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"96Wu3jtW4CpA3vSt6ssr0fnR4b8xoot46DO0fZQItcI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-96Wu3jtW4CpA3vSt6ssr0fnR4b8xoot46DO0fZQItcI="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyDailyRoutineSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1060904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FW3XJzh6sQrWEXCW5eyUh5cmT7Z/rz9OcZfGiOD8jv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FW3XJzh6sQrWEXCW5eyUh5cmT7Z/rz9OcZfGiOD8jv4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyDailyRoutineSound.v791izjn8m.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1060904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FW3XJzh6sQrWEXCW5eyUh5cmT7Z/rz9OcZfGiOD8jv4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v791izjn8m"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/MyDailyRoutineSound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FW3XJzh6sQrWEXCW5eyUh5cmT7Z/rz9OcZfGiOD8jv4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyDreamSound.iohg1b47o1.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fpV59hadGDaMxC6W0s5y5cTyjlZDjH2eXVFW911HC6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iohg1b47o1"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/MyDreamSound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fpV59hadGDaMxC6W0s5y5cTyjlZDjH2eXVFW911HC6Y="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyDreamSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "507526"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fpV59hadGDaMxC6W0s5y5cTyjlZDjH2eXVFW911HC6Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fpV59hadGDaMxC6W0s5y5cTyjlZDjH2eXVFW911HC6Y="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyFamilyLifeSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7gk0Hl+0mPQut/c/Siw7PeLhEtY4WzF+UucTawQwT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7gk0Hl+0mPQut/c/Siw7PeLhEtY4WzF+UucTawQwT4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyFamilyLifeSound.tl3xrn08pc.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "994867"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f7gk0Hl+0mPQut/c/Siw7PeLhEtY4WzF+UucTawQwT4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tl3xrn08pc"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/MyFamilyLifeSound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-f7gk0Hl+0mPQut/c/Siw7PeLhEtY4WzF+UucTawQwT4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyFavoriteSportSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "948055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"twB2lRU+Hz2vd9lh19bOD9S7gyO1Fs6qH+xU1C99ZW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-twB2lRU+Hz2vd9lh19bOD9S7gyO1Fs6qH+xU1C99ZW4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/MyFavoriteSportSound.tnvw7oxrqx.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "948055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"twB2lRU+Hz2vd9lh19bOD9S7gyO1Fs6qH+xU1C99ZW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tnvw7oxrqx"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/MyFavoriteSportSound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-twB2lRU+Hz2vd9lh19bOD9S7gyO1Fs6qH+xU1C99ZW4="
+        }
+      ]
+    },
+    {
+      "Route": "audios/SchoolSound.m19p4vq14i.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "738658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjqU/9/Ep4wBlHsiquMcpBZA7ahZuJgxpxmh/GDN6Xc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m19p4vq14i"
+        },
+        {
+          "Name": "label",
+          "Value": "audios/SchoolSound.mp3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjqU/9/Ep4wBlHsiquMcpBZA7ahZuJgxpxmh/GDN6Xc="
+        }
+      ]
+    },
+    {
+      "Route": "audios/SchoolSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "738658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "audio/mpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CjqU/9/Ep4wBlHsiquMcpBZA7ahZuJgxpxmh/GDN6Xc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CjqU/9/Ep4wBlHsiquMcpBZA7ahZuJgxpxmh/GDN6Xc="
+        }
+      ]
+    },
+    {
       "Route": "images/dog.a1fjzhw1bh.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -62,7 +680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -86,7 +704,7 @@
     },
     {
       "Route": "images/dog.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -107,7 +725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",

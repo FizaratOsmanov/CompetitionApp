@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zqQhiCN+UvbXyq5aAeSJnQuqBQR2eWOcMEHmzqYHW24=",
+  "Hash": "3f2yHdbQ1c36YxwDM8EqgfUACDc693AJcOKfE9265V8=",
   "Source": "CompetitionApp",
   "BasePath": "_content/CompetitionApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CompetitionApp\\wwwroot",
       "Source": "CompetitionApp",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/FamilySound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\FamilySound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/MyDailyRoutineSound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\MyDailyRoutineSound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/MyDreamSound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\MyDreamSound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/MyFamilyLifeSound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\MyFamilyLifeSound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/MyFavoriteSportSound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\MyFavoriteSportSound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "audios/SchoolSound#[.{fingerprint}]?.mp3",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\audios\\SchoolSound.mp3"
     },
     {
-      "Identity": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "Identity": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "SourceId": "CompetitionApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\",
+      "ContentRoot": "C:\\Desktop\\CompetitionApp\\wwwroot\\",
       "BasePath": "_content/CompetitionApp",
       "RelativePath": "images/dog#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -167,7 +167,7 @@
   "Endpoints": [
     {
       "Route": "audios/FamilySound.bzs9fr3zwy.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -188,7 +188,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:36:08 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -212,7 +212,7 @@
     },
     {
       "Route": "audios/FamilySound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\FamilySound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -233,7 +233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:36:08 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -249,7 +249,7 @@
     },
     {
       "Route": "audios/MyDailyRoutineSound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -270,7 +270,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:37:41 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -286,7 +286,7 @@
     },
     {
       "Route": "audios/MyDailyRoutineSound.v791izjn8m.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDailyRoutineSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -307,7 +307,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:37:41 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -331,7 +331,7 @@
     },
     {
       "Route": "audios/MyDreamSound.iohg1b47o1.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -352,7 +352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:43:08 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -376,7 +376,7 @@
     },
     {
       "Route": "audios/MyDreamSound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyDreamSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -397,7 +397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:43:08 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -413,7 +413,7 @@
     },
     {
       "Route": "audios/MyFamilyLifeSound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -434,7 +434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:36:51 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -450,7 +450,7 @@
     },
     {
       "Route": "audios/MyFamilyLifeSound.tl3xrn08pc.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFamilyLifeSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -471,7 +471,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:36:51 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -495,7 +495,7 @@
     },
     {
       "Route": "audios/MyFavoriteSportSound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -516,7 +516,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:38:10 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -532,7 +532,7 @@
     },
     {
       "Route": "audios/MyFavoriteSportSound.tnvw7oxrqx.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\MyFavoriteSportSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -553,7 +553,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:38:10 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -577,7 +577,7 @@
     },
     {
       "Route": "audios/SchoolSound.m19p4vq14i.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -598,7 +598,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:38:53 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -622,7 +622,7 @@
     },
     {
       "Route": "audios/SchoolSound.mp3",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\audios\\SchoolSound.mp3",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -643,7 +643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 04 Jan 2025 15:38:53 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -659,7 +659,7 @@
     },
     {
       "Route": "images/dog.a1fjzhw1bh.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -680,7 +680,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -704,7 +704,7 @@
     },
     {
       "Route": "images/dog.jpg",
-      "AssetFile": "C:\\Users\\LENOVO\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
+      "AssetFile": "C:\\Desktop\\CompetitionApp\\wwwroot\\images\\dog.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -725,7 +725,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 01 Jan 2025 13:06:16 GMT"
+          "Value": "Fri, 31 Jan 2025 22:09:13 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -1,1 +1,7 @@
+wwwroot\audios\FamilySound.mp3
+wwwroot\audios\MyDailyRoutineSound.mp3
+wwwroot\audios\MyDreamSound.mp3
+wwwroot\audios\MyFamilyLifeSound.mp3
+wwwroot\audios\MyFavoriteSportSound.mp3
+wwwroot\audios\SchoolSound.mp3
 wwwroot\images\dog.jpg
